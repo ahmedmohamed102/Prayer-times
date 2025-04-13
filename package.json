@@ -17,9 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ahmedmohamed102.github.io/Prayer times",
+  "homepage": "https://ahmedmohamed102.github.io/Prayer-times",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
